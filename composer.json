@@ -1,0 +1,23 @@
+{
+  "name": "arnehendriksen/laravel-deployer-recipes",
+  "description": "Additional recipes for Laravel Deployer.",
+  "keywords": ["laravel", "deployer", "recipes"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arne Hendriksen",
+      "email": "arne.hendriksen@gmail.com",
+      "homepage": "https://arnehendriksen.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.0",
+    "lorisleiva/laravel-deployer": "^0.2.15"
+  },
+  "autoload": {
+    "psr-0": {
+      "Deployer\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
